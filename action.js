@@ -16,7 +16,7 @@ const exec = (cmd, args=[]) => new Promise((resolve, reject) => {
 });
 
 const main = async () => {
-  
+  await exec('bash', [path.join(__dirname, './action.sh')]);
 };
 
 main().catch(err => {
