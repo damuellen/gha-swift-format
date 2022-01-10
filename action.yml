@@ -1,4 +1,4 @@
-name: 'GitHub Acion swift-format'
+name: 'GitHub Action swift-format'
 description: 'Formatting files in the repository using swift-format'
 author: "damuellen"
 branding:
